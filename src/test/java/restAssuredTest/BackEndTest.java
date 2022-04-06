@@ -6,7 +6,6 @@ import io.restassured.path.json.JsonPath;
 import models.UpdateUserModel;
 import org.testng.annotations.Test;
 import utilites.GenerateFakeMessage;
-
 import java.io.File;
 
 import static org.hamcrest.Matchers.*;
