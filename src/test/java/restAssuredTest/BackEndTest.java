@@ -1,12 +1,10 @@
 package restAssuredTest;
-
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import models.UpdateUserModel;
 import org.testng.annotations.Test;
 import utilites.GenerateFakeMessage;
-
 import java.io.File;
 
 import static org.hamcrest.Matchers.*;
